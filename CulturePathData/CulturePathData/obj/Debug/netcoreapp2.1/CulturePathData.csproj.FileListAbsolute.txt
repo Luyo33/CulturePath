@@ -1,0 +1,12 @@
+C:\Users\Bijan\Desktop\CulturePath\CulturePathData\CulturePathData\bin\Debug\netcoreapp2.1\CulturePathData.deps.json
+C:\Users\Bijan\Desktop\CulturePath\CulturePathData\CulturePathData\bin\Debug\netcoreapp2.1\CulturePathData.runtimeconfig.json
+C:\Users\Bijan\Desktop\CulturePath\CulturePathData\CulturePathData\bin\Debug\netcoreapp2.1\CulturePathData.runtimeconfig.dev.json
+C:\Users\Bijan\Desktop\CulturePath\CulturePathData\CulturePathData\bin\Debug\netcoreapp2.1\CulturePathData.dll
+C:\Users\Bijan\Desktop\CulturePath\CulturePathData\CulturePathData\bin\Debug\netcoreapp2.1\CulturePathData.pdb
+C:\Users\Bijan\Desktop\CulturePath\CulturePathData\CulturePathData\obj\Debug\netcoreapp2.1\CulturePathData.csprojAssemblyReference.cache
+C:\Users\Bijan\Desktop\CulturePath\CulturePathData\CulturePathData\obj\Debug\netcoreapp2.1\CulturePathData.csproj.CoreCompileInputs.cache
+C:\Users\Bijan\Desktop\CulturePath\CulturePathData\CulturePathData\obj\Debug\netcoreapp2.1\CulturePathData.AssemblyInfoInputs.cache
+C:\Users\Bijan\Desktop\CulturePath\CulturePathData\CulturePathData\obj\Debug\netcoreapp2.1\CulturePathData.AssemblyInfo.cs
+C:\Users\Bijan\Desktop\CulturePath\CulturePathData\CulturePathData\obj\Debug\netcoreapp2.1\CulturePathData.dll
+C:\Users\Bijan\Desktop\CulturePath\CulturePathData\CulturePathData\obj\Debug\netcoreapp2.1\CulturePathData.pdb
+C:\Users\Bijan\Desktop\CulturePath\CulturePathData\CulturePathData\bin\Debug\netcoreapp2.1\CulturePathData.dll.config
