@@ -9,7 +9,39 @@ namespace CulturePathData
 {
     public class User
     {
-
+        public static bool DeleteUser(string emailadress)
+        {
+            using (SqlConnection sqlCnx = new SqlConnection(ConfigurationManager.ConnectionStrings["UbCnx"].ConnectionString))
+            {
+                if (CheckUser(emailadress, sqlCnx))
+                    return false;
+                SqlCommand cmd = new SqlCommand(String.Format("DELETE FROM Users WHERE (EmailAdress = '{0}')",emailadress),sqlCnx);
+                if (sqlCnx.State == ConnectionState.Closed)
+                    sqlCnx.Open();
+                cmd.ExecuteNonQuery();
+            }
+            return true;
+        }
+        public static bool CheckPassword(string emailadress, string password)
+        {
+            using (SqlConnection sqlCnx = new SqlConnection(ConfigurationManager.ConnectionStrings["UbCnx"].ConnectionString))
+            {
+                if (CheckUser(emailadress, sqlCnx))
+                    return false;
+                else
+                {
+                    SqlCommand cmd = new SqlCommand("dbo.CheckPassword",sqlCnx) { CommandType = CommandType.StoredProcedure };
+                    cmd.Parameters.Add(new SqlParameter("@EmailAdress", emailadress));
+                    cmd.Parameters.Add(new SqlParameter("@Password", password));
+                    cmd.Parameters.Add("@Worked", SqlDbType.Int).Direction = ParameterDirection.Output;
+                    if (sqlCnx.State == ConnectionState.Closed)
+                        sqlCnx.Open();
+                    cmd.ExecuteNonQuery();
+                    int i = Convert.ToInt32(cmd.Parameters["@Worked"].Value);
+                    return i == 1;
+                }
+            }
+        }
         private static bool CheckUser(string emailadress, SqlConnection cnx)
         {
             if (cnx.State == ConnectionState.Closed)
@@ -31,17 +63,12 @@ namespace CulturePathData
         }
         public static bool AddUser(string emailadress, string username, string password, string firstname, string lastname, int age)
         {
-            /*SqlConnectionStringBuilder b = new SqlConnectionStringBuilder();
-            b["Data Source"] = "(local)";
-            b["DataBase"] = @"C:\Users\Bijan\Desktop\CulturePath\CulturePathData\CulturePathData\UsersData\Users.mdf";
-            b["integrated Security"] = true;
-            b["Trusted_Connection"] = true;*/
             using (SqlConnection sqlCnx = new SqlConnection(ConfigurationManager.ConnectionStrings["UbCnx"].ConnectionString))
             {
-                /*if (!CheckUser(emailadress, sqlCnx))
+                if (!CheckUser(emailadress, sqlCnx))
                 {
                     return false;
-                }*/
+                }
                 SqlCommand cmd = new SqlCommand("dbo.AddUser", sqlCnx) { CommandType = CommandType.StoredProcedure };
                 cmd.Parameters.Add(new SqlParameter("@pEmailAdress", emailadress));
                 cmd.Parameters.Add(new SqlParameter("@pUserName", username));
