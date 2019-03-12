@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Patate.Droid.view.Type_parcours">
+  <ContentView.Content>
+      <StackLayout>
+          <Label Text="Choose the type of course"
+                 BackgroundColor="Green"
+                 VerticalOptions="Start"/>
+          
+            <Button Text="Game mode"
+                    Clicked="GameMode"
+                  BackgroundColor="Green"
+                  VerticalOptions="Center"/>
+          
+            <Button Text="Walk mode"
+                    Clicked="Walkmode"
+                  BackgroundColor="Green"
+                  VerticalOptions="End"/>
+          
+            <Button Text="Tourist mode"
+                    Clicked="TouristMode"
+                  BackgroundColor="Green"
+                  VerticalOptions="End"/>
+        </StackLayout>
+  </ContentView.Content>
+</ContentView>

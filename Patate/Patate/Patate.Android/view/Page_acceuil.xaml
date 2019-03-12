@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Patate.Droid.view.Page_acceuil">
+  <ContentView.Content>
+      <StackLayout>
+          <Label Text="Welcome in CulturePath" 
+                 HorizontalOptions="Center"
+                 VerticalOptions="Start"
+                 BackgroundColor="Green"
+                 />
+            <Label Text="Hello, and thank you for choosing CulturePath
+                 We wish that this would be easier for you to plannify
+                 your visit of Paris with our Application. 
+                 Using CulturePath is very easy, choose the mode you
+                 wants to use."
+                   Margin="20"                   
+                 />
+            <Button Text="Continue"
+                    Clicked="NextPage"
+                    HorizontalOptions="Start"
+                    VerticalOptions="End"
+                    BackgroundColor="AliceBlue" />
+        </StackLayout>
+  </ContentView.Content>
+</ContentView>

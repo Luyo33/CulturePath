@@ -1,0 +1,12 @@
+C:\Users\carok\OneDrive\Documents\epita\Nouveau dossier\Patate\Patate\Patate\obj\Debug\netstandard2.0\Patate.csprojAssemblyReference.cache
+C:\Users\carok\OneDrive\Documents\epita\Nouveau dossier\Patate\Patate\Patate\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\carok\OneDrive\Documents\epita\Nouveau dossier\Patate\Patate\Patate\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\carok\OneDrive\Documents\epita\Nouveau dossier\Patate\Patate\Patate\obj\Debug\netstandard2.0\Patate.csproj.CoreCompileInputs.cache
+C:\Users\carok\OneDrive\Documents\epita\Nouveau dossier\Patate\Patate\Patate\obj\Debug\netstandard2.0\Patate.AssemblyInfoInputs.cache
+C:\Users\carok\OneDrive\Documents\epita\Nouveau dossier\Patate\Patate\Patate\obj\Debug\netstandard2.0\Patate.AssemblyInfo.cs
+C:\Users\carok\OneDrive\Documents\epita\Nouveau dossier\Patate\Patate\Patate\obj\Debug\netstandard2.0\Patate.dll
+C:\Users\carok\OneDrive\Documents\epita\Nouveau dossier\Patate\Patate\Patate\obj\Debug\netstandard2.0\Patate.pdb
+C:\Users\carok\OneDrive\Documents\epita\Nouveau dossier\Patate\Patate\Patate\bin\Debug\netstandard2.0\Patate.deps.json
+C:\Users\carok\OneDrive\Documents\epita\Nouveau dossier\Patate\Patate\Patate\bin\Debug\netstandard2.0\Patate.dll
+C:\Users\carok\OneDrive\Documents\epita\Nouveau dossier\Patate\Patate\Patate\bin\Debug\netstandard2.0\Patate.pdb
+C:\Users\carok\OneDrive\Documents\epita\Nouveau dossier\Patate\Patate\Patate\obj\Debug\netstandard2.0\XamlC.stamp

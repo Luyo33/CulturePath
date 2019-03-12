@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Patate.Droid.view.TouristicMode">
+  <ContentView.Content>
+      <StackLayout>
+          <Label Text="Welcome in the TouristicMode" />
+            <Label Text="The Touristic mode is for the."
+                BackgroundColor="Green"
+                   VerticalOptions="Start"
+                   HorizontalOptions="Center"/>
+
+            <Button Text="Continue"
+                  Clicked="NextPage"
+                  BackgroundColor="AliceBlue"
+                  VerticalOptions="End"/>
+        </StackLayout>
+  </ContentView.Content>
+</ContentView>

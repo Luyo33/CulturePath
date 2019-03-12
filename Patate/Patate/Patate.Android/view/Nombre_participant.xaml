@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Patate.Droid.view.Nombre_participant">
+  <ContentView.Content>
+      <StackLayout>
+          <Label Text="Choose number of people" 
+                 BackgroundColor="Green"
+                 HorizontalOptions="Center"
+                 VerticalOptions="Start"/>
+            <Button Text="1"
+                    Clicked="NextPage"
+                    BackgroundColor="Aqua"
+                    VerticalOptions="Start"
+                    HorizontalOptions="Start"/>
+          
+            <Button Text="2"
+                    BackgroundColor="Aqua"
+                    VerticalOptions="Start" 
+                    HorizontalOptions="End"
+                    Clicked="NextPage"/>
+          
+            <Button Text="3"
+                    BackgroundColor="Aqua"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Start"
+                    Clicked="NextPage"/>
+          
+            <Button Text="4"
+                    BackgroundColor="Aqua"
+                    VerticalOptions="Center" 
+                    HorizontalOptions="End"
+                    Clicked="NextPage"/>
+          
+            <Button Text="5"
+                    BackgroundColor="Aqua"
+                    VerticalOptions="End" 
+                    HorizontalOptions="Start"
+                    Clicked="NextPage"/>
+          
+            <Button Text="6"
+                    BackgroundColor="Aqua"
+                    VerticalOptions="End" 
+                    HorizontalOptions="End"
+                    Clicked="NextPage"/>
+        </StackLayout>
+  </ContentView.Content>
+</ContentView>
